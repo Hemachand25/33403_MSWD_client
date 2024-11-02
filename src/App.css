@@ -1,0 +1,75 @@
+h1, h4, h6 {
+  color: rgb(0, 51, 102); /* Dark Blue */
+  text-align: center;
+}
+h5 {
+  color: rgb(0, 51, 102); /* Dark Blue */
+  text-align: center;
+}
+h2 {
+  margin-top: 5vh;
+  color: rgb(0, 51, 102); /* Dark Blue */
+  text-align: center;
+}
+.header {
+  background-color: #a9a9a9; /* Grey */ 
+  margin-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+th, td {
+  text-align: center;
+}
+th {
+  width: 20%;
+}
+
+body {
+  background-color: white;
+}
+
+.header2 {
+  background-color: rgb(0, 51, 102); /* Dark Blue */
+  height: 5vh;
+  margin: 0;
+}
+.header {
+  background-color: #a9a9a9; /* Grey */
+}
+
+.card-container {
+  padding-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px; 
+  margin: 50px;
+}
+
+.cardborder {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  width: calc(25% - 20px);
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  border-radius: 5%;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  text-align: center; 
+}
+
+.combined-header {
+  background-color: #a9a9a9; /* Grey */
+  height: 5vh;
+}
